@@ -286,3 +286,16 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git remote add origin https://github.com/mercymih/celestial-bodies-database.git
+git commit -m "init commit"
+git remote add origin https://github.com/mercymih/celestial-bodies-database.git
+git remote set-url origin https://github.com/mercymih/celestial-bodies-database.git
+git commit -m "init commit"
+git push
+git push
+git push
+git push -u origin master
+git push -u set-url origin master
+git push -u origin master
+git add
+git add .
